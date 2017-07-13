@@ -14,7 +14,7 @@ npm install --save blogger-save-theme
 ## Usage
 
 ```js
-const blogger = require('blogger-html-preview')
+const blogger = require('blogger-save-theme')
 
 const theme = `<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
@@ -35,8 +35,8 @@ blogger({
   xGWTPermutation: 'code',
   xsrf: 'code',
   cookie: {
-    HSID: 'value from Blogger cookie', 
-    SID: 'value from Blogger cookie', 
+    HSID: 'value from Blogger cookie',
+    SID: 'value from Blogger cookie',
     SSID: 'value from Blogger cookie'
   }
 }).then(res => {
