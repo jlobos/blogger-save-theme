@@ -1,0 +1,29 @@
+{
+  "name": "blogger-save-theme",
+  "version": "0.0.0",
+  "description": "Save theme of Google Blogger from Node.js",
+  "license": "MIT",
+  "repository": "jlobos/blogger-save-theme",
+  "author": "Jesus Lobos <jlobitu@gmail.com> (https://jlobos.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js"
+  ],
+  "xo": {
+    "semicolon": false,
+    "space": true
+  },
+  "dependencies": {
+    "node-fetch": "^1.7.1",
+    "qs": "^6.5.0"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  }
+}
