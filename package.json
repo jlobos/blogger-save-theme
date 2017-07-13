@@ -1,6 +1,6 @@
 {
   "name": "blogger-save-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Save theme of Google Blogger from Node.js",
   "license": "MIT",
   "repository": "jlobos/blogger-save-theme",
